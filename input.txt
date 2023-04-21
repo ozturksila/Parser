@@ -1,0 +1,19 @@
+{ this is a comment }
+{ and this is a comment too }
+int myVar .
+move 25 to myVar . 
+move myVar to yourVar . 
+add 2 to sum . 
+sub t from total . 
+out "The result is:",sum .
+"Hello, this is a string!"
+loop 10 times out "*" . 
+
+int size .
+int sum .
+move 5 to size .
+loop size times
+[ out size, newline .
+  add size to sum .
+
+out newline, "Sum:", sum .
